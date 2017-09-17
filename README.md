@@ -11,6 +11,7 @@ Be prepared for things to take a relatively long time, when the programme starts
 You can print a degree symbol with this sequence (0xA1, 0xE3) so String("Temp:"+ String(temp) + char(0xA1) + char(0xE3)+"C") will print a degree symbol like this 'Temp: 26.1° C' it (annoyingly) adds a space after the degree symbol! Ask Waveshare why it does that! E.g.
 
 (High0 + char(0xA1) + char(0xE3)).toCharArray(buff,64);
+
 epd_disp_string(buff,x,y);
 
 Enjoy
