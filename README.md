@@ -2,6 +2,8 @@
 
 To use the Weather Display display, you must copy the icons to an SD-Card and insert it into the 4.3" e-Paper display card reader. 
 
+YOU MUST USE THE EPD.CPP and EPD.H files I provided, so replace your current versions.
+
 Connect your controller (e.g. ESP32 ) to the display in accordance with the wiring diagram. Don't use RX0/TX0 unless you like making difficult for yourself!
 
 Modify the code to add your WiFi SSID and PASSWORD, change your City and Country, compile and then upload code to ESP32.
