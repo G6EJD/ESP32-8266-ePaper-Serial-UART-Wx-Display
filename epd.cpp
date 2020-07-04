@@ -27,7 +27,7 @@ static const unsigned char _cmd_load_font[8] = {0xA5, 0x00, 0x09, CMD_LOAD_FONT,
 static const unsigned char _cmd_load_pic[8]  = {0xA5, 0x00, 0x09, CMD_LOAD_PIC, 0xCC, 0x33, 0xC3, 0x3C}; 				//CMD_LOAD_PIC
 static unsigned char _cmd_buff[CMD_SIZE];
 
-HardwareSerial Serial2(2);
+//HardwareSerial Serial2(2);
 
 /*
 private function
